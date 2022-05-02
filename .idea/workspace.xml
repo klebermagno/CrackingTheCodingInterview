@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap1/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/klebermagno/code/cap1/Q1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,24 +40,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.klebermagno.code.cap1" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Q1Test.hasUnicCharsNoDataStructure_notUniqueCharacteres_false">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CrackingTheCodingInterview" />
       <extension name="coverage">
@@ -59,8 +82,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q1Test.hasUnicCharsNoDataStructure_differentCharacteres_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CrackingTheCodingInterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
+      <option name="METHOD_NAME" value="hasUnicCharsNoDataStructure_differentCharacteres_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Test.hasUnicCharsNoDataStructure_notUniqueCharacteres_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CrackingTheCodingInterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
+      <option name="METHOD_NAME" value="hasUnicCharsNoDataStructure_notUniqueCharacteres_false" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Test.hasUnicChars_differentCharacteres_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CrackingTheCodingInterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
+      <option name="METHOD_NAME" value="hasUnicChars_differentCharacteres_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1Test.hasUnicChars_notUniqueCharacteres_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CrackingTheCodingInterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
+      <option name="METHOD_NAME" value="hasUnicChars_notUniqueCharacteres_false" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Q1Test.hasUnicCharsNoDataStructure_notUniqueCharacteres_false" />
+        <item itemvalue="JUnit.Q1Test.hasUnicCharsNoDataStructure_differentCharacteres_true" />
+        <item itemvalue="JUnit.Q1Test.hasUnicChars_notUniqueCharacteres_false" />
+        <item itemvalue="JUnit.Q1Test.hasUnicChars_differentCharacteres_True" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
