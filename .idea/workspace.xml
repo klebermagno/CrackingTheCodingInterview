@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="Resolve first question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java" afterDir="false" />
+    <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="Add LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LikedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651529206586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add LinkedList">
+      <created>1651586488146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651586488146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Resolve first question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolve first question" />
+    <MESSAGE value="Add LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
