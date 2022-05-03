@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="Add LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Stack.java" afterDir="false" />
+    <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="Add Queue and Stack implementations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Q21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Q21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <recent name="com.klebermagno.code.cap1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.Stack">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap2.LinkedList" />
       <module name="CrackingTheCodingInterview" />
@@ -89,34 +87,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1Test.hasUnicCharsNoDataStructure_differentCharacteres_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap3.Queue" />
       <module name="CrackingTheCodingInterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
+          <option name="PATTERN" value="com.klebermagno.code.cap3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
-      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
-      <option name="METHOD_NAME" value="hasUnicCharsNoDataStructure_differentCharacteres_true" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1Test.hasUnicCharsNoDataStructure_notUniqueCharacteres_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap3.Stack" />
       <module name="CrackingTheCodingInterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
+          <option name="PATTERN" value="com.klebermagno.code.cap3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
-      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
-      <option name="METHOD_NAME" value="hasUnicCharsNoDataStructure_notUniqueCharacteres_false" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.Queue" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="JUnit.Q3Test.URLify" />
         <item itemvalue="JUnit.Q2Test.hasPermutation" />
-        <item itemvalue="JUnit.Q1Test.hasUnicCharsNoDataStructure_notUniqueCharacteres_false" />
-        <item itemvalue="JUnit.Q1Test.hasUnicCharsNoDataStructure_differentCharacteres_true" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651587790342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Queue and Stack implementations.">
+      <created>1651612664760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651612664760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +221,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Resolve first question" />
     <MESSAGE value="Add LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LinkedList" />
+    <MESSAGE value="Add Queue and Stack implementations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Queue and Stack implementations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
