@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="Resolve first question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LikedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LikedList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="28cg4cyZdJnuiEfiGk00sWTUVS5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,22 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -66,7 +73,20 @@
       <recent name="com.klebermagno.code.cap1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Q3Test.URLify">
+  <component name="RunManager" selected="Application.LinkedList">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap2.LinkedList" />
+      <module name="CrackingTheCodingInterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klebermagno.code.cap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q1Test.hasUnicCharsNoDataStructure_differentCharacteres_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CrackingTheCodingInterview" />
       <extension name="coverage">
@@ -94,22 +114,6 @@
       <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
       <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
       <option name="METHOD_NAME" value="hasUnicCharsNoDataStructure_notUniqueCharacteres_false" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q1Test.hasUnicChars_notUniqueCharacteres_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CrackingTheCodingInterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.klebermagno.code.cap1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.klebermagno.code.cap1" />
-      <option name="MAIN_CLASS_NAME" value="com.klebermagno.code.cap1.Q1Test" />
-      <option name="METHOD_NAME" value="hasUnicChars_notUniqueCharacteres_false" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="JUnit.Q3Test.URLify" />
         <item itemvalue="JUnit.Q2Test.hasPermutation" />
         <item itemvalue="JUnit.Q1Test.hasUnicCharsNoDataStructure_notUniqueCharacteres_false" />
         <item itemvalue="JUnit.Q1Test.hasUnicCharsNoDataStructure_differentCharacteres_true" />
-        <item itemvalue="JUnit.Q1Test.hasUnicChars_notUniqueCharacteres_false" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +219,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap1/Q3.java</url>
           <line>26</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
