@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1d4ec6-9713-4cff-a397-f2596d3f94c8" name="Changes" comment="Add LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap3/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Q21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/klebermagno/code/cap2/Q21.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651586488146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add LinkedList">
+      <created>1651587790342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651587790342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
