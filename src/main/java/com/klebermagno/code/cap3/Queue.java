@@ -6,8 +6,9 @@ import java.util.List;
 public class Queue<T> {
 
     private List<T> elements = new ArrayList<>();
-
-    //enqueue
+    /**
+     * O(1)
+     */
     public void enqueue(T element){
         elements.add(element);
     }
