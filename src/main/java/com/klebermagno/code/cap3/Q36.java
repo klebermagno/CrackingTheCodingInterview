@@ -42,7 +42,9 @@ public class Q36 {
     }
 
     private class Animal {
-        enum Type{cat,dog}
+        enum Type{
+            CAT,
+            DOG}
         Type type;
         String name;
         Animal(Type t, String name){
