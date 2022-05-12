@@ -14,6 +14,11 @@ package com.klebermagno.code.cap3;
  *
  */
 
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+
+
 /**
  * Abrigo de animais:
  * Um abrigo de animais, que abriga apenas cães e gatos,
@@ -28,28 +33,69 @@ package com.klebermagno.code.cap3;
  */
 public class Q36 {
 
+    int count;
+    List<Animal> cats = new ArrayList();
+    List<Animal> dogs = new ArrayList();
     public void enqueue(Animal animal){
+        if(Animal.Type.CAT == animal.type){
+            cats.add(animal);
+        }else {
+            dogs.add(animal);
+        }
 
     }
     public Animal dequeueAny(){
-        return null;
+        int order = cats.get(0).order.compareTo(dogs.get(0).order);
+        if(order<0){
+            return cats.remove(0);
+        }else{
+            return dogs.remove(0);
+        }
     }
     public Animal dequeueCat(){
-        return null;
+        if(cats.size()==0){
+            System.out.println("Don't have more cats!");
+            return null;
+        }
+        return cats.remove(0);
     }
     public Animal dequeueDog(){
-        return null;
+        if(dogs.size()==0){
+            System.out.println("Don't have more dogs!");
+            return null;
+        }
+        return dogs.remove(0);
     }
 
-    private class Animal {
-        enum Type{
+    public static class Animal {
+        static enum Type{
             CAT,
             DOG}
         Type type;
         String name;
+        Timestamp order;
         Animal(Type t, String name){
             this.type = t;
             this.name =name;
+            order = new Timestamp(System.currentTimeMillis());
         }
+    }
+
+    public static void main(String[] args){
+        Q36 q = new Q36();
+        Animal animal = new Animal(Animal.Type.CAT,"cat1");
+        q.enqueue(animal);
+        animal = new Animal(Animal.Type.CAT,"cat2");
+        q.enqueue(animal);
+        animal = new Animal(Animal.Type.DOG,"dog1");
+        q.enqueue(animal);
+        animal = new Animal(Animal.Type.DOG,"dog2");
+        q.enqueue(animal);
+        assertEqual("cat1",q.dequeueAny().name);
+        assertEqual("dog1",q.dequeueDog().name);
+    }
+
+    private static void assertEqual(Object expected, Object parameter) {
+        expected.equals(parameter);
     }
 }
