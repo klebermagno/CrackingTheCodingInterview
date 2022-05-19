@@ -15,6 +15,7 @@ package com.klebermagno.code.cap3;
  */
 
 import java.sql.Timestamp;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +37,10 @@ public class Q36 {
     int count;
     List<Animal> cats = new ArrayList();
     List<Animal> dogs = new ArrayList();
+    int cout = 0;
     public void enqueue(Animal animal){
+        this.count++;
+        animal.order =  this.count;
         if(Animal.Type.CAT == animal.type){
             cats.add(animal);
         }else {
@@ -46,6 +50,8 @@ public class Q36 {
     }
     public Animal dequeueAny(){
         int order = cats.get(0).order.compareTo(dogs.get(0).order);
+        System.out.println("Cat: "+cats.get(0).order);
+        System.out.println("Dog: "+dogs.get(0).order);
         if(order<0){
             return cats.remove(0);
         }else{
@@ -73,11 +79,10 @@ public class Q36 {
             DOG}
         Type type;
         String name;
-        Timestamp order;
+        Integer order;
         Animal(Type t, String name){
             this.type = t;
             this.name =name;
-            order = new Timestamp(System.currentTimeMillis());
         }
     }
 
@@ -92,10 +97,16 @@ public class Q36 {
         animal = new Animal(Animal.Type.DOG,"dog2");
         q.enqueue(animal);
         assertEqual("cat1",q.dequeueAny().name);
+        assertEqual("cat2",q.dequeueAny().name);
         assertEqual("dog1",q.dequeueDog().name);
+        assertEqual("dog1",q.dequeueCat().name);
     }
 
     private static void assertEqual(Object expected, Object parameter) {
-        expected.equals(parameter);
+        if(expected.equals(parameter)){
+            System.out.println("Success!");
+        }else{
+            System.out.println("Fail! Expected: " + expected + " but received: " + parameter );
+        }
     }
 }
