@@ -9,4 +9,25 @@ package com.klebermagno.code.cap4;
  * nodes on a given level while searching that level.
  */
 public class BreadthFirstSearch {
+
+    /**
+     * 1 void search(Node root) {
+     * 2 Queue queue = new Queue();
+     * 3 root.marked= true;
+     * 4 queue.enqueue(root); // Add to the end of queue
+     * 5
+     * 6 while (!queue.isEmpty()) {
+     * 7 Node r = queue.dequeue(); // Remove from the front of the queue
+     * 8 visit(r);
+     * 9 foreach (Node n in r.adjacent) {
+     * 10 if (n.marked == false) {
+     * 11 n. marked = true;
+     * 12 queue.enqueue(n);
+     * 13 }
+     * 14 }
+     * 15 }
+     * 16 }
+     * If you are
+     */
+    public void search(){}
 }

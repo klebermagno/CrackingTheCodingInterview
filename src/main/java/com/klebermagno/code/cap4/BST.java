@@ -33,35 +33,31 @@ public class BST {
 
     /**
      * O(log(n))
-     * @param root
-     * @param value
-     * @return
      */
 
     Node findNode(Node root, int value){
         while(root != null){
-            int currvalue = root.getValue();
-            if(currvalue==value)
+            int currValue = root.getValue();
+            if(currValue==value)
                 return root;
-            if(currvalue<value)
+            if(currValue<value)
                 root = root.getRight();
             else
-                root = root.getRight();
+                root = root.getLeft();
 
         }
         return null;
     }
+
+    //TODO
     Node findNodeRecusive(Node root, int value){
-        while(root != null){
-            int currvalue = root.getValue();
-            if(currvalue==value)
-                return root;
-            if(currvalue<value)
-                root = root.getRight();
-            else
-                root = root.getRight();
 
-        }
         return null;
     }
+
+    //first on the node itself, then on its left descendants, and
+    //finally on its right
+    //TODO preorderTraversal(
+    //TODO inorderTraversal
+    //TODO postorderTraversal
 }
