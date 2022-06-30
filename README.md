@@ -16,3 +16,8 @@
 Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.
 
 [Google error prone](https://github.com/google/error-prone)
+
+# Google Truth
+
+com.google.truth
+[Truth](https://truth.dev)
