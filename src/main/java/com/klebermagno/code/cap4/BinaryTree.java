@@ -13,10 +13,3 @@ public class BinaryTree {
     public void rebalance(){}
 }
 
-class BinaryNode{
-
-    BinaryNode left;
-    BinaryNode right;
-    int val;
-
-}
