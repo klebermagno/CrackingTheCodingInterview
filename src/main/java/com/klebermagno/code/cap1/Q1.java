@@ -5,6 +5,11 @@ import java.util.Set;
 
 public class Q1 {
 
+    /**
+     * Implement an algorithm to determine if a string has all unique characters.
+     * What if you cannot use additional data structures?
+     * @param word the word to be checked
+     */
     public static boolean hasUnicChars(String word){
         if(word==null || word.length()==0)
             return false;
@@ -23,6 +28,11 @@ public class Q1 {
         return true;
     }
 
+    /**
+     * Implement an algorithm to determine if a string has all unique characters.
+     * What if you cannot use additional data structures?
+     * @param word the word to be checked
+     */
     public static boolean hasUnicCharsNoDataStructure(String word){
 
         if(word==null || word.length()>256 || word.isEmpty())
