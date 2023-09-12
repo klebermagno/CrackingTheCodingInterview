@@ -2,9 +2,53 @@ package com.klebermagno.code.cap1;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.*;
 
 public class Q1 {
 
+    public static void main(String args[]){
+        String uniqueString = "aAbcd";
+        String nonUniqueString = "aabcd";
+
+        Boolean actual = hasUnicCharsStream(uniqueString); 
+        assertEquals(Boolean.valueOf(true), actual);
+
+        actual = hasUnicCharsStream(nonUniqueString);
+        assertEquals(Boolean.valueOf(false), actual);
+
+    }
+
+    public static void assertEquals(Object expected, Object actual){
+        if(expected.equals(actual)){
+            System.out.println("Assert! Actual is equal to expected!");
+        } else {
+            System.out.printf("Fail! Actual: %s isn't equal to expected: %s\n", actual, expected);
+        }
+    }
+
+    /**
+     * Implement an algorithm to determine if a string has all unique characters.
+     * What if you cannot use additional data structures?
+     * @param word the word to be checked
+     */
+    public static boolean hasUnicCharsStream(String word){
+        Set<Character> characters = new HashSet();
+        return word
+          .chars()
+          .mapToObj(item -> (char)item)
+          .noneMatch(character ->{ 
+           if(characters.contains(character)){
+                return true;
+            } else {
+                characters.add(character);
+                return false;
+            }
+            
+        });
+
+
+    }
+    
     /**
      * Implement an algorithm to determine if a string has all unique characters.
      * What if you cannot use additional data structures?
