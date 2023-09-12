@@ -10,10 +10,10 @@ public class Q1 {
         String uniqueString = "aAbcd";
         String nonUniqueString = "aabcd";
 
-        Boolean actual = hasUnicCharsStream(uniqueString); 
+        Boolean actual = hasUnicCharsNoAditionalDataStructure(uniqueString); 
         assertEquals(Boolean.valueOf(true), actual);
 
-        actual = hasUnicCharsStream(nonUniqueString);
+        actual = hasUnicCharsNoAditionalDataStructure(nonUniqueString);
         assertEquals(Boolean.valueOf(false), actual);
 
     }
@@ -24,6 +24,18 @@ public class Q1 {
         } else {
             System.out.printf("Fail! Actual: %s isn't equal to expected: %s\n", actual, expected);
         }
+    }
+
+    public static boolean hasUnicCharsNoAditionalDataStructure(String word){
+        for(int i = 0; i < word.length()-1; i++){
+            for(int j = i+1; j < word.length();j++){
+                if (word.charAt(i) == word.charAt(j)){
+                    return false;
+                }
+            }
+        }
+        return true;
+        
     }
 
     /**
