@@ -15,7 +15,7 @@ public class Test {
         if(expected.equals(actual)){
             System.out.println("Assert! Actual is equal to expected!");
         } else {
-            System.out.printf("Fail! Actual: %s isn't equal to expected: %s\n", actual, expected);
+            System.out.printf("Fail! Actual: '%s' isn't equal to expected: '%s'\n", actual, expected);
         }
     }
 }
