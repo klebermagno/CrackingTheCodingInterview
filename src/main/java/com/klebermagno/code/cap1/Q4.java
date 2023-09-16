@@ -27,13 +27,16 @@ public class Q4 {
         Test.assertEquals(true, hasPalindromePermutation(input));
     }
     public static boolean hasPalindromePermutation(String s1){
+        s1 = s1.toLowerCase();
+        s1 = s1.replaceAll(" ", "");
 
         Map<Character,Integer> characters = new HashMap();
         for (int i =0 ; i < s1.length(); i++) {
-            if (characters.get(s1.charAt(i)) != null) {
+            if (characters.get(s1.charAt(i)) == null) {
                 characters.put(s1.charAt(i),1);
             } else {
-                characters.add(s1.charAt(i),characters.get(s1.charAt(1))++);
+                Integer sum = characters.get(s1.charAt(i));
+                characters.put(s1.charAt(i), sum.intValue() + 1);
             }
         }
         int even = 0;
@@ -44,6 +47,6 @@ public class Q4 {
             }
          }
 
-        return even == 0 || even == 1;
+        return even == 0 || (even == 1 && s1.length()%2==0) ;
     }
 }
