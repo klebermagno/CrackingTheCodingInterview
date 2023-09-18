@@ -25,12 +25,15 @@ public class Q4 {
     public static void main(String args[]){
         String input = "Tact Coa";
         Test.assertEquals(true, hasPalindromePermutation(input));
+        input = "carrace";
+        Test.assertEquals(true, hasPalindromePermutation(input));
+
     }
     public static boolean hasPalindromePermutation(String s1){
         s1 = s1.toLowerCase();
         s1 = s1.replaceAll(" ", "");
 
-        Map<Character,Integer> characters = new HashMap();
+        Map<Character,Integer> characters = new HashMap<>();
         for (int i =0 ; i < s1.length(); i++) {
             if (characters.get(s1.charAt(i)) == null) {
                 characters.put(s1.charAt(i),1);
@@ -47,6 +50,6 @@ public class Q4 {
             }
          }
 
-        return even == 0 || (even == 1 && s1.length()%2==0) ;
+        return even == 0 || (even == 1 && s1.length()%2!=0) ;
     }
 }
