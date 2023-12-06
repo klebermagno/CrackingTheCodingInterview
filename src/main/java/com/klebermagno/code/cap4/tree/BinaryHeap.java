@@ -1,4 +1,4 @@
-package com.klebermagno.code.cap4;
+package com.klebermagno.code.cap4.tree;
 
 /**
  * We'll just discuss min-heaps here.

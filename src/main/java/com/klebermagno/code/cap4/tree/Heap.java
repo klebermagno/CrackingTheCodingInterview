@@ -1,4 +1,4 @@
-package com.klebermagno.code.cap4;
+package com.klebermagno.code.cap4.tree;
 
 /**
  * Heaps are trees (usually binary trees) where (in a max-heap) each

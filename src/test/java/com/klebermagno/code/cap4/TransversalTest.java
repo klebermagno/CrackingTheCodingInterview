@@ -1,5 +1,7 @@
 package com.klebermagno.code.cap4;
 
+import com.klebermagno.code.cap4.tree.BinaryNode;
+import com.klebermagno.code.cap4.tree.Transversal;
 import org.junit.Test;
 
 import java.util.Arrays;

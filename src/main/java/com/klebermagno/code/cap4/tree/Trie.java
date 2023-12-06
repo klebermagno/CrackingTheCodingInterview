@@ -1,4 +1,4 @@
-package com.klebermagno.code.cap4;
+package com.klebermagno.code.cap4.tree;
 
 /**
  * A trie (sometimes called a prefix tree)

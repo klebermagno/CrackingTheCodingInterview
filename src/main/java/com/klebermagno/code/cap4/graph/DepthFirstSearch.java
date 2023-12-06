@@ -1,4 +1,4 @@
-package com.klebermagno.code.cap4;
+package com.klebermagno.code.cap4.graph;
 
 /**
  * search follows one branch of the tree down as many levels as possible until the target node is found

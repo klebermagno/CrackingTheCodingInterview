@@ -1,4 +1,4 @@
-package com.klebermagno.code.cap4;
+package com.klebermagno.code.cap4.graph;
 
 /**
  * search a tree is to do a breadth-first search (BFS). In a BFS you start with the root,

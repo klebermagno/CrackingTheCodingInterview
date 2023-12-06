@@ -1,4 +1,6 @@
-package com.klebermagno.code.cap4;
+package com.klebermagno.code.cap4.tree;
+
+import com.klebermagno.code.cap4.tree.BinaryNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +24,7 @@ import java.util.List;
 //inorder tranversal Left current right
 class Transversal {
     public List<Integer> inorderTraversal(BinaryNode root) {
-        List<Integer> list = new ArrayList();
+        List<Integer> list = new ArrayList<>();
         if(root !=null){
 
             return inorderTraversal(root,list);
