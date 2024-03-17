@@ -22,7 +22,7 @@ import java.util.List;
  */
 
 //inorder tranversal Left current right
-class Transversal {
+public class Transversal {
     public List<Integer> inorderTraversal(BinaryNode root) {
         List<Integer> list = new ArrayList<>();
         if(root !=null){
