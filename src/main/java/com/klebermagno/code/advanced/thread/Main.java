@@ -21,7 +21,7 @@ public class Main extends Thread{
 
         Main mt = new Main(); 
        // mt.run(); 
-        mt.start();
+       // mt.start();
         counter++; 
         System.out.println ("Main: " + counter); 
     } 

@@ -19,6 +19,7 @@ public class PlayGround {
     System.out.println(list);
 
     List<String> Sortedlist = list.stream().sorted().collect(Collectors.toList());
+    //this.text = text == null ? Collections.emptyList() : Collections.unmodifiableList(text);
 
 
     System.out.println(Sortedlist);

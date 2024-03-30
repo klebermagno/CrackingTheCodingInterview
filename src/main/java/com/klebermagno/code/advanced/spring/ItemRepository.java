@@ -9,7 +9,7 @@ public class ItemRepository {
     throw new UnsupportedOperationException("Unimplemented method 'save'");
   }
 
-  public Optional findById(Long id) {
+  public Optional<Item> findById(Long id) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'findById'");
   }
