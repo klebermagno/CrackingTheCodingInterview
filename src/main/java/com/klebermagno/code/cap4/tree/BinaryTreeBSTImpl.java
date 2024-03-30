@@ -67,7 +67,6 @@ public class BinaryTreeBSTImpl implements BinaryTree{
 
         Node node = root;
         while(node !=null){
-            System.out.println(node.value);
             if (node.value == value )
                 return true;
             if ( value < node.value  ){
@@ -79,10 +78,58 @@ public class BinaryTreeBSTImpl implements BinaryTree{
         return false;
     }
 
+    /**
+     * BST delete.
+     * @param value
+     */
     @Override
     public void delete(int value) {
+        Node parent = null;
+        Node current = root;
 
+        // Localizar o nó a ser removido e seu pai
+        while (current != null && current.value != value) {
+            parent = current;
+            if (value < current.value) {
+                current = current.left;
+            } else {
+                current = current.right;
+            }
+        }
+
+        if (current == null) {
+            return; // Nó não encontrado
+        }
+
+        // Caso 1: Nó com dois filhos
+        if (current.left != null && current.right != null) {
+            Node successor = current.right;
+            Node parentOfSuccessor = current;
+
+            // Encontrar o sucessor em ordem (menor nó da subárvore direita)
+            while (successor.left != null) {
+                parentOfSuccessor = successor;
+                successor = successor.left;
+            }
+
+            // Copiar o valor do sucessor para o nó atual e mover ponteiros
+            current.value = successor.value;
+            current = successor;
+            parent = parentOfSuccessor;
+        }
+
+        // Caso 2: Nó com um ou nenhum filho
+        Node child = (current.left != null) ? current.left : current.right;
+
+        if (parent == null) {
+            root = child; // Removendo a raiz
+        } else if (parent.left == current) {
+            parent.left = child;
+        } else {
+            parent.right = child;
+        }
     }
+
 
     /**
      * Left,Root,Right
@@ -120,6 +167,9 @@ public class BinaryTreeBSTImpl implements BinaryTree{
         tree.printAsciiTree();
         assertEquals(tree.contains(7), true);
         assertEquals(tree.contains(1), false);
+        tree.delete(7);
+        assertEquals(false, tree.contains(7));
+        tree.printAsciiTree();
     }
 
     public static void assertEquals(Object expected, Object received){
